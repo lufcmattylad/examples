@@ -3,5 +3,6 @@ DECLARE
   d_debug BOOLEAN DEFAULT false;
 BEGIN
   NULL;
+null;
 END;
 /
