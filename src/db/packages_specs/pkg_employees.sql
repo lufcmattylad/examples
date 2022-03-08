@@ -1,4 +1,4 @@
 BEGIN
-d_debug BOOLEAN FALSE;
+d_debug BOOLEAN DEFAULT FALSE;
 END;
 /
