@@ -11,7 +11,7 @@ loop
 tot:= tot + (var1*var1*var1);     
 tmp:=tmp/10;   
 end loop;   
-if(tot==num)
+if (tot==num)
  then     
 dbms_output.put_line(num||' is armstrong no'); 
   else   
