@@ -16,5 +16,5 @@ if (tot==num)
 dbms_output.put_line(num||' is armstrong no'); 
   else   
   dbms_output.put_line(num||' is not a armstrong no');   
-end if 
+end if;
 end;
