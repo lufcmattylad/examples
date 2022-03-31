@@ -6,10 +6,10 @@ BEGIN
     END IF;
     IF i NOT IN (1, 5, 7) THEN
       IF MOD(i, 3) = 0 OR MOD(i, 6) = 0 OR MOD(i, 9) = 0 THEN
-        NULL;
-      ELSIF MOD(i, 2) = 0 OR MOD(i, 4) = 0 OR MOD(i, 8) = 0 THEN
-        NULL;
-      ELSIF MOD(i, 5) = 0 OR MOD(i, 10) = 0 THEN
+ NULL;
+ELSIF MOD(i, 2) = 0 OR MOD(i, 4) = 0 OR MOD(i, 8) = 0 THEN
+ NULL;
+ elsif          MOD(i, 5) = 0 OR MOD(i, 10) = 0 THEN
         NULL;
       ELSIF MOD(i, 7) = 0 THEN
         NULL;
