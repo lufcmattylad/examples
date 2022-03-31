@@ -14,7 +14,7 @@ ELSIF MOD(i, 2) = 0 OR MOD(i, 4) = 0 OR MOD(i, 8) = 0 THEN
       ELSIF MOD(i, 7) = 0 THEN
         NULL;
       ELSE
-        dbms_output.put_line(' Is this a prime number?? ' || i);
+dbms_output.put_line(' Is this a prime number?? ' || i);
       END IF;
     END IF;
   END LOOP;
